@@ -1,0 +1,4 @@
+(version 1)
+  (rule "Clearance to cutout"
+  (constraint clearance (min 2.8mm))
+  (condition "A.Layer=='User.1' && A.Thickness == 0.1mm"))
